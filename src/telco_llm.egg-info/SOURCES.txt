@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/telco_llm/__init__.py
+src/telco_llm.egg-info/PKG-INFO
+src/telco_llm.egg-info/SOURCES.txt
+src/telco_llm.egg-info/dependency_links.txt
+src/telco_llm.egg-info/top_level.txt
+src/telco_llm/prompts/__init__.py
+src/telco_llm/prompts/fewshot.py
+src/telco_llm/prompts/prompt.py
+src/telco_llm/tools/__init__.py

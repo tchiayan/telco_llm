@@ -1,0 +1,508 @@
+Below are the structural schema of main 4G KPI. This table consist of raw data for 4G cell. Some KPIs are divided into numerator and denomerator which is use to calculate the aggregated cluster/period or etc performance.
+
+[
+  {
+    "name": "time",
+    "mode": "",
+    "type": "TIMESTAMP",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "subnetwork_id",
+    "mode": "",
+    "type": "STRING",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "managed_element_id",
+    "mode": "",
+    "type": "STRING",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "object",
+    "mode": "",
+    "type": "STRING",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "enodeb_id",
+    "mode": "",
+    "type": "STRING",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "cell_id",
+    "mode": "",
+    "type": "STRING",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "RRC_SETUP_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "RRC_SETUP_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "PS_SETUP_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "PS_SETUP_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "VOLTE_SETUP_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "VOLTE_SETUP_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "CELL_AVAIL_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "CELL_AVAIL_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "VOLTE_LATENCY_MS_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "VOLTE_LATENCY_MS_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "INTRA_LTE_HO_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "INTRA_LTE_HO_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "SRVCC_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "SRVCC_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "VOLTE_DROP_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "VOLTE_DROP_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "RRC_DROP_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "RRC_DROP_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "ERAB_DROP_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "ERAB_DROP_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DL_PDCP_SDU_LOSS_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DL_PDCP_SDU_LOSS_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "UL_PDCP_SDU_LOSS_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "UL_PDCP_SDU_LOSS_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "MAX_NUM_RRC_CONN_USER",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DATA_TRAFFIC_GB",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "VOLTE_TRAFFIC_ERL",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DL_PRB_UTIL_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "UL_PRB_UTIL_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DL_PRB_UTIL_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "UL_PRB_UTIL_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DL_IP_THP_MBPS_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DL_IP_THP_MBPS_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "UL_IP_THP_MBPS_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "UL_IP_THP_MBPS_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "AVG_CELL_RSSI",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "CSFB_SETUP_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "CSFB_SETUP_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "MAX_DL_USER_NUMBER_2CC_CA_ENABLE",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "MAX_DL_USER_NUMBER_3CC_CA_ENABLE",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "MAX_DL_USER_NUMBER_4CC_CA_ENABLE",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "MEAN_NUM_RRC_CONN_USER",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DL_DATA_TRAFFIC_MB",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "UL_DATA_TRAFFIC_MB",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DL_PRB_UTIL_NUM_2",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DL_PRB_UTIL_DENOM_2",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "UL_PRB_UTIL_NUM_2",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "UL_PRB_UTIL_DENOM_2",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "AVG_NI",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "AVG_TA_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "AVG_TA_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "TCP_PACKET_LOSS_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "TCP_PACKET_LOSS_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "INTRA_LTE_INTRA_FREQ_HO_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "INTRA_LTE_INTRA_FREQ_HO_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "INTRA_LTE_INTER_FREQ_HO_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "INTRA_LTE_INTER_FREQ_HO_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DL_USER_THP_MBPS_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "DL_USER_THP_MBPS_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "UL_USER_THP_MBPS_NUM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "UL_USER_THP_MBPS_DENOM",
+    "mode": "",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "source",
+    "mode": "",
+    "type": "STRING",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "CQI_NUM",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "CQI_DENOM",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "ENDC_HO_NUM",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  },
+  {
+    "name": "ENDC_HO_DENOM",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "",
+    "fields": []
+  }
+]
